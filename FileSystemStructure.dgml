@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="82c526eD-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="54.4728131103509,3.79104456644808,59.79,25" Label="bin" />
+    <Node Id="83c526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="-107.255396765845,3.79104456644802,59.79,25" Label="bin" />
+    <Node Id="8c0526e4-bfad-4be2-bb42-b25296cdf7d91" Category="GroupCategory" Bounds="115.171654815419,272.794915771484,66.1766666666667,24.05" Label="log.txt" />
+    <Node Id="8c0526e4-bfad-4be3-bb42-b25296cdf7d91" Category="GroupCategory" Bounds="-126.341678517915,302.880537402422,184.916666666667,66.2" Label="Korn.Utils.System.dll&#xD;&#xA;Korn.Logger.dll&#xD;&#xA;Korn.AssemblyInjector.dll&#xD;&#xA;etc." />
+    <Node Id="8cb526e4-bfad-4be2-bb42-b25296cdf7d91" Category="GroupCategory" Bounds="-186.341678517915,-76.2091548110961,425.719032589536,505.289992213518" Group="Expanded" Label="Korn (KORN_PATH)" />
+    <Node Id="8cb526e4-bfad-4be2-bb42-b25296cdf7ff1" Category="GroupCategory" Bounds="-78.5226459283793,128.880233323311,277.9,104.0002" Group="Expanded" Label="Plugins" />
+    <Node Id="8cb526e4-bfad-4be2-bb42-b25296cdffff1" Category="GroupCategory" Bounds="-146.341678517915,262.880437402421,224.916666666667,126.2002" Group="Expanded" Label="Libraries" />
+    <Node Id="8cb526e4-bffd-4be2-bb42-b25296cff7ff1" Category="GroupCategory" Bounds="-58.5226459283793,168.880333323311,237.9,44" Group="Expanded" Label="{AuthorName}.Korn.{PluginName}" />
+    <Node Id="Internal" Category="GroupCategory" Bounds="-166.341678517915,88.8801333233113,385.719032589536,320.20060407911" Group="Expanded" Label="Data" UseManualLocation="True" />
+    <Node Id="a7babfcf-2c33-46f3-8c00-e7f87bda32a01" Category="GroupCategory" Bounds="18.1911464436842,-36.2090554335519,132.353333333333,85.0002" Group="Expanded" Label="AutorunService" UseManualLocation="True" />
+    <Node Id="afb14cab-430a-4909-8cf9-2fb9e1bec2ad1" Category="GroupCategory" Bounds="-127.255396765845,-36.209055433552,99.79,85.0002" Group="Expanded" Label="Service" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="8cb526e4-bfad-4be2-bb42-b25296cdf7d91" Target="Internal" Category="Contains" />
+    <Link Source="8cb526e4-bfad-4be2-bb42-b25296cdf7d91" Target="a7babfcf-2c33-46f3-8c00-e7f87bda32a01" Category="Contains" />
+    <Link Source="8cb526e4-bfad-4be2-bb42-b25296cdf7d91" Target="afb14cab-430a-4909-8cf9-2fb9e1bec2ad1" Category="Contains" />
+    <Link Source="8cb526e4-bfad-4be2-bb42-b25296cdf7ff1" Target="8cb526e4-bffd-4be2-bb42-b25296cff7ff1" Category="Contains" />
+    <Link Source="8cb526e4-bfad-4be2-bb42-b25296cdffff1" Target="8c0526e4-bfad-4be3-bb42-b25296cdf7d91" Category="Contains" />
+    <Link Source="Internal" Target="8c0526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
+    <Link Source="Internal" Target="8cb526e4-bfad-4be2-bb42-b25296cdf7ff1" Category="Contains" />
+    <Link Source="Internal" Target="8cb526e4-bfad-4be2-bb42-b25296cdffff1" Category="Contains" />
+    <Link Source="a7babfcf-2c33-46f3-8c00-e7f87bda32a01" Target="82c526eD-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
+    <Link Source="afb14cab-430a-4909-8cf9-2fb9e1bec2ad1" Target="83c526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="AssemblyCategory" Label="AssemblyCategory" Background="#FFE51400" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" IsTag="True" NavigationActionLabel="Assemblies" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="GroupCategory" Label="GroupCategory" Background="#FFE51400" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" IsTag="True" NavigationActionLabel="Groups" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="Background" Description="The background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="AssemblyCategory" ValueLabel="Has assembly">
+      <Condition Expression="HasCategory('AssemblyCategory')" />
+      <Setter Property="Background" Value="#FF1E1E1E" />
+      <Setter Property="Stroke" Value="#78FFFFFF" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="GroupCategory" ValueLabel="Has category">
+      <Condition Expression="HasCategory('GroupCategory')" />
+      <Setter Property="Background" Value="#FF1E1E1E" />
+      <Setter Property="Stroke" Value="#78FFFFFF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FF1E1E1E" />
+      <Setter Property="Stroke" Value="#FF1E1E1E" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+</DirectedGraph>
