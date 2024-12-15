@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="151cbc1c-6e30-4b5c-81d8-60377ad3240c1" Category="AssemblyCategory" Bounds="20,296.2,383.236666666667,84.05" Group="Expanded" Label="Korn.Utils.GithubExplorer" />
+    <Node Id="359deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="59.211182023314,627.887951660156,264.076666666667,52.15" Label="• Library, providing a shared logger &#xD;&#xA;  for all Korn applications.&#xD;&#xA;  Provides customised exceptions" />
+    <Node Id="4f2bcfd6-6cdc-4042-be6d-2ce4e405d45b1" Category="Comment" Bounds="40,336.2,343.236666666667,24.05" Label="• Library for exploring GitHub repository content" />
+    <Node Id="5e9c22f9-366a-4486-a58f-d36ee48b2ab41" Category="Comment" Bounds="832.791986879345,331.827740469857,428.993333333333,38.0999999999999" Label="• Application for testing projects that interact with the CLR.&#xD;&#xA;  For example: Korn.CLR, Korn.Hooking" />
+    <Node Id="81c526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="39.2112536378974,730.038095800781,376.64,98.1001999999999" Group="Expanded" Label="Korn.Utils.System" />
+    <Node Id="81c526e5-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="20,168.1,383.236666666667,98.0999999999999" Group="Expanded" Label="Korn.Utils.VisualStudio" />
+    <Node Id="81c526e6-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="19.1014921569826,39.9994842724467,330.463333333333,98.1001999999999" Group="Expanded" Label="Korn.Utils.WinForms" />
+    <Node Id="81c526e7-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="886.314757055866,561.684702246094,330.463333333334,98.1001999999999" Group="Expanded" Label="Korn.AssemblyInjector" />
+    <Node Id="81c526e8-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="1914.34249654051,546.169046300914,365.336666666666,232.05039916623" Group="Expanded" Label="FREE RESOURCES" UseManualLocation="True" />
+    <Node Id="81c526e8-bfad-4be2-bd42-b25296cdf7d91" Category="AssemblyCategory" Bounds="19.211182023314,547.887751660156,416.640071614583,300.250644140625" Group="Expanded" Label="Shared libraries" UseManualLocation="True" />
+    <Node Id="81c526e9-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="1934.34249654051,586.169146300915,79.79,44" Group="Expanded" Label="ABC" />
+    <Node Id="81c526eA-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="2044.1325838886,586.169293264501,79.7900000000009,44" Group="Expanded" Label="ABC" />
+    <Node Id="81c526eB-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="2153.92258388861,586.169224352772,79.79,44" Group="Expanded" Label="ABC" />
+    <Node Id="81c526eC-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="1934.34258388861,660.169246300914,79.79,44" Group="Expanded" Label="ABC" />
+    <Node Id="81c599e8-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="866.314586971231,521.684602246094,750.716731770834,286.200619726562" Group="Expanded" Label="CLR interaction" UseManualLocation="True" />
+    <Node Id="82c526eD-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="2044.1324983724,660.169315086817,92.7733333333326,25" Label="New Node" />
+    <Node Id="839247b7-bb4c-4fc1-895f-6328e8efa7751" Category="Comment" Bounds="399.564825490316,84.4814745434427,217.9,24.05" Label="• Libary for reading PE images" />
+    <Node Id="83c526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="2166.90581380208,660.169315086817,92.7733333333335,25" Label="New Node" />
+    <Node Id="8c0526e4-bfad-4be2-bb42-b25296cdf7d91" Category="GroupCategory" Bounds="1934.34258138021,734.169308983301,72.7733333333335,24.0500000000001" Label="New Node" />
+    <Node Id="8ca526e4-bfad-4be2-bb42-b25296cdf7d91" Category="GroupCategory" Bounds="2037.11607991536,734.169308983301,72.7733333333335,24.0500000000001" Label="New Node" />
+    <Node Id="8cb526e4-bfad-4be2-bb42-b25296cdf7d91" Category="GroupCategory" Bounds="-0.898507843017398,-0.000615727553281431,658.363333333333,514.3013" Group="Expanded" Label="Utilities" />
+    <Node Id="8cc526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="805.636531915593,103.714626123674,482.396666666667,122.1502" Group="Expanded" Label="Korn.Bootstrapper" UseManualLocation="True" />
+    <Node Id="8cd526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="1324.03580222414,304.29447151581,257.900000000001,84.0502000000001" Group="Expanded" Label="Korn.Installer" UseManualLocation="True" />
+    <Node Id="8ce526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="1259.97131874206,696.809494726562,337.06,84.0502000000001" Group="Expanded" Label="Korn.Hooking" />
+    <Node Id="8cf526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="39.211182023314,587.887851660156,304.076666666667,112.1502" Group="Expanded" Label="Korn.Logger" />
+    <Node Id="9ba306a6-40f1-45b2-ae6d-d770806bb2561" Category="Comment" Bounds="1358.03319858226,168.094213867187,389.413333333333,66.1999999999998" Label="• Application, which is a Service-Process.&#xD;&#xA;  It performs some preventive work to keep Korn healthy,&#xD;&#xA;  searching for Visual Studio applications &#xD;&#xA;  for further initial interaction with them" />
+    <Node Id="BuildPackage" Category="AssemblyCategory" Bounds="812.791986879345,291.827640469857,468.993333333333,98.1002000000001" Group="Expanded" Label="ConsoleTestCLR" UseManualLocation="True" />
+    <Node Id="CSharp" Category="AssemblyCategory" Bounds="886.314586971231,689.784921972656,343.656666666667,98.1001999999999" Group="Expanded" Label="Korn.CLR" />
+    <Node Id="Internal" Category="GroupCategory" Bounds="785.636533859017,48.0942606999136,1501.01334960937,361.833685882105" Group="Expanded" Label="Internal projects" UseManualLocation="True" />
+    <Node Id="Korn" Category="AssemblyCategory" Bounds="485.851253637897,620.152933447266,330.463333333333,98.1001999999999" Group="Expanded" Label="Korn.Plugins.Core" />
+    <Node Id="Korn." Category="AssemblyCategory" Bounds="379.564825490316,44.4813745434427,257.9,84.0502" Group="Expanded" Label="Korn.Utils.PEImageReader" UseManualLocation="True" />
+    <Node Id="Korn.Analyze" Category="AssemblyCategory" Bounds="1797.44648715648,135.119174902344,449.203333333333,112.1502" Group="Expanded" Label="Korn.AutorunService (.netframework)" />
+    <Node Id="Korn.Commands" Category="AssemblyCategory" Bounds="1338.03319858226,128.094113867188,429.413333333333,126.2002" Group="Expanded" Label="Korn.Service" />
+    <Node Id="Korn.Tasks" Category="AssemblyCategory" Bounds="20,410.25,396.43,84.0499999999999" Group="Expanded" Label="Korn.Utils.UnsafePDBResolver" />
+    <Node Id="a59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="1279.97131874206,736.809594726562,297.06,24.0500000000002" Label="• Library for unsafe multi-hooking methods" />
+    <Node Id="a7babfcf-2c33-46f3-8c00-e7f87bda32a01" Category="GroupCategory" Bounds="465.851253637897,580.152833447266,370.463333333333,158.1004" Group="Expanded" Label="Plugins libraries" UseManualLocation="True" />
+    <Node Id="afb14cab-430a-4909-8cf9-2fb9e1bec2ad1" Category="GroupCategory" Bounds="1318.03319858226,88.0940138671875,948.616621907552,186.2004" Group="Expanded" Label="Service" />
+    <Node Id="b59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="1344.03580222414,344.301908876781,217.9,24.0500000000002" Label="• Application — Korn installer" UseManualLocation="True" />
+    <Node Id="c59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="825.636531915593,143.714726123674,442.396666666667,62.1500000000001" Group="Expanded" Label="• Library designed to be injected into processes for further&#xD;&#xA;  loading of modules and plug-ins into the process.&#xD;&#xA;  It is responsible for the initial configuration environment" />
+    <Node Id="d59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="2139.88935384115,734.169308983301,92.5633333333335,24.05" Label="New Comment" />
+    <Node Id="dfb5fecb-a5a2-48a2-a842-3cb5a8cfb76c1" Category="Comment" Bounds="906.31458697123,729.785021972656,303.656666666667,38.0999999999999" Label="• Library for the insecure interaction with&#xD;&#xA;  the internal components of the CoreCLR" />
+    <Node Id="fd4e503a-ff50-43a9-a681-608d7040678b1" Category="Comment" Bounds="1817.44648715648,175.119274902344,409.203333333332,52.1500000000001" Label="• Windows service, which is required to automatically start&#xD;&#xA;  the Service-Porcess Korn.Service. &#xD;&#xA;  Keeps it running the whole time the OS is running" />
+    <Node Id="ffd8475e-10bc-46d0-a912-c6eb580bc08e1" Category="Comment" Bounds="40,450.25,356.43,24.05" Label="• Library for unsafe data resolving from .pdb files" />
+    <Node Id="•" Category="Comment" Bounds="59.2112536378974,770.038195800781,336.64,38.0999999999999" Label="• Library providing interaction with the system.&#xD;&#xA;  For example: with system variables " />
+    <Node Id="•1" Category="Comment" Bounds="40,208.1,343.236666666667,38.0999999999999" Label="• Library related to utilities for Visual Studio.&#xD;&#xA;  For example: vswhere" />
+    <Node Id="•2" Category="Comment" Bounds="39.1014921569826,79.9995842724468,290.463333333333,38.0999999999999" Label="• Library with some ready components for&#xD;&#xA;  quick creation of WinForms applications" />
+    <Node Id="•3" Category="Comment" Bounds="906.314757055866,601.684802246094,290.463333333333,38.0999999999999" Label="• Library providing functions for remote &#xD;&#xA;  library injection into processes" />
+    <Node Id="•ALib" Category="Comment" Bounds="505.851253637897,660.153033447266,290.463333333333,38.0999999999999" Label="• Library, which is the core for plugins.&#xD;&#xA;  It stores the environment configuration" />
+  </Nodes>
+  <Links>
+    <Link Source="151cbc1c-6e30-4b5c-81d8-60377ad3240c1" Target="4f2bcfd6-6cdc-4042-be6d-2ce4e405d45b1" Category="Contains" />
+    <Link Source="151cbc1c-6e30-4b5c-81d8-60377ad3240c1" Target="8cd526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="403.236680501302,339.475721659763,911.799289979306,5.95085385080154" />
+    <Link Source="81c526e4-bfad-4be2-bb42-b25296cdf7d91" Target="•" Category="Contains" />
+    <Link Source="81c526e5-bfad-4be2-bb42-b25296cdf7d91" Target="Korn.Commands" Bounds="403.236680501302,195.523724303282,925.798206061654,17.9175848752833" />
+    <Link Source="81c526e5-bfad-4be2-bb42-b25296cdf7d91" Target="•1" Category="Contains" />
+    <Link Source="81c526e6-bfad-4be2-bb42-b25296cdf7d91" Target="8cd526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="349.564819437663,122.557704894645,965.650507592609,195.829922525258" />
+    <Link Source="81c526e6-bfad-4be2-bb42-b25296cdf7d91" Target="•2" Category="Contains" />
+    <Link Source="81c526e7-bfad-4be2-bb42-b25296cdf7d91" Target="Korn.Commands" Bounds="1110.14286670583,260.07123187897,360.314830666785,301.613470367124" />
+    <Link Source="81c526e7-bfad-4be2-bb42-b25296cdf7d91" Target="•3" Category="Contains" />
+    <Link Source="81c526e8-bfad-4be2-bb42-b25296cdf7d91" Target="81c526e9-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
+    <Link Source="81c526e8-bfad-4be2-bb42-b25296cdf7d91" Target="81c526eA-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
+    <Link Source="81c526e8-bfad-4be2-bb42-b25296cdf7d91" Target="81c526eB-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
+    <Link Source="81c526e8-bfad-4be2-bb42-b25296cdf7d91" Target="81c526eC-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
+    <Link Source="81c526e8-bfad-4be2-bb42-b25296cdf7d91" Target="82c526eD-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
+    <Link Source="81c526e8-bfad-4be2-bb42-b25296cdf7d91" Target="83c526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
+    <Link Source="81c526e8-bfad-4be2-bb42-b25296cdf7d91" Target="8c0526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
+    <Link Source="81c526e8-bfad-4be2-bb42-b25296cdf7d91" Target="8ca526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
+    <Link Source="81c526e8-bfad-4be2-bb42-b25296cdf7d91" Target="d59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Contains" />
+    <Link Source="81c526e8-bfad-4be2-bd42-b25296cdf7d91" Target="81c526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
+    <Link Source="81c526e8-bfad-4be2-bd42-b25296cdf7d91" Target="8cf526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
+    <Link Source="81c599e8-bfad-4be2-bb42-b25296cdf7d91" Target="81c526e7-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
+    <Link Source="81c599e8-bfad-4be2-bb42-b25296cdf7d91" Target="8ce526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
+    <Link Source="81c599e8-bfad-4be2-bb42-b25296cdf7d91" Target="CSharp" Category="Contains" />
+    <Link Source="8cb526e4-bfad-4be2-bb42-b25296cdf7d91" Target="151cbc1c-6e30-4b5c-81d8-60377ad3240c1" Category="Contains" />
+    <Link Source="8cb526e4-bfad-4be2-bb42-b25296cdf7d91" Target="81c526e5-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
+    <Link Source="8cb526e4-bfad-4be2-bb42-b25296cdf7d91" Target="81c526e6-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
+    <Link Source="8cb526e4-bfad-4be2-bb42-b25296cdf7d91" Target="Korn." Category="Contains" />
+    <Link Source="8cb526e4-bfad-4be2-bb42-b25296cdf7d91" Target="Korn.Tasks" Category="Contains" />
+    <Link Source="8cc526e4-bfad-4be2-bb42-b25296cdf7d91" Target="Korn.Commands" Bounds="1288.03319858226,177.378489625829,41.0122362222646,2.14053445296034" />
+    <Link Source="8cc526e4-bfad-4be2-bb42-b25296cdf7d91" Target="c59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Contains" />
+    <Link Source="8cd526e4-bfad-4be2-bb42-b25296cdf7d91" Target="b59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Contains" />
+    <Link Source="8ce526e4-bfad-4be2-bb42-b25296cdf7d91" Target="BuildPackage" Bounds="1100.50069501916,396.427067368602,287.743710466167,300.38242735796" />
+    <Link Source="8ce526e4-bfad-4be2-bb42-b25296cdf7d91" Target="a59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Contains" />
+    <Link Source="8cf526e4-bfad-4be2-bb42-b25296cdf7d91" Target="359deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Contains" />
+    <Link Source="BuildPackage" Target="5e9c22f9-366a-4486-a58f-d36ee48b2ab41" Category="Contains" />
+    <Link Source="CSharp" Target="8ce526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="1229.97143554688,738.834716796875,21,0" />
+    <Link Source="CSharp" Target="BuildPackage" Bounds="1048.87185513108,398.924500805947,7.93319120818455,290.860421166709" />
+    <Link Source="CSharp" Target="dfb5fecb-a5a2-48a2-a842-3cb5a8cfb76c1" Category="Contains" />
+    <Link Source="Internal" Target="8cc526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
+    <Link Source="Internal" Target="8cd526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
+    <Link Source="Internal" Target="BuildPackage" Category="Contains" />
+    <Link Source="Internal" Target="afb14cab-430a-4909-8cf9-2fb9e1bec2ad1" Category="Contains" />
+    <Link Source="Korn" Target="•ALib" Category="Contains" />
+    <Link Source="Korn." Target="81c526e7-bfad-4be2-bb42-b25296cdf7d91" Bounds="552.047291124035,128.531386064404,442.214616344181,426.902445948827" />
+    <Link Source="Korn." Target="839247b7-bb4c-4fc1-895f-6328e8efa7751" Category="Contains" />
+    <Link Source="Korn.Analyze" Target="8cd526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="1590.61890963289,247.269374902344,225.732845083485,61.5372363394956" />
+    <Link Source="Korn.Analyze" Target="fd4e503a-ff50-43a9-a681-608d7040678b1" Category="Contains" />
+    <Link Source="Korn.Commands" Target="9ba306a6-40f1-45b2-ae6d-d770806bb2561" Category="Contains" />
+    <Link Source="Korn.Commands" Target="Korn.Analyze" Bounds="1767.45458984375,191.188064575195,21,0" />
+    <Link Source="Korn.Tasks" Target="81c526e7-bfad-4be2-bb42-b25296cdf7d91" Bounds="416.386571563798,489.958082920926,461.086604983764,87.6763980817359" />
+    <Link Source="Korn.Tasks" Target="ffd8475e-10bc-46d0-a912-c6eb580bc08e1" Category="Contains" />
+    <Link Source="a7babfcf-2c33-46f3-8c00-e7f87bda32a01" Target="Korn" Category="Contains" />
+    <Link Source="afb14cab-430a-4909-8cf9-2fb9e1bec2ad1" Target="Korn.Analyze" Category="Contains" />
+    <Link Source="afb14cab-430a-4909-8cf9-2fb9e1bec2ad1" Target="Korn.Commands" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="AssemblyCategory" Label="AssemblyCategory" Background="#FFE51400" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" IsTag="True" NavigationActionLabel="Assemblies" />
+    <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" IsTag="True" NavigationActionLabel="Comments" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="GroupCategory" Label="GroupCategory" Background="#FFE51400" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" IsTag="True" NavigationActionLabel="Groups" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="Background" Description="The background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="AssemblyCategory" ValueLabel="Has assembly">
+      <Condition Expression="HasCategory('AssemblyCategory')" />
+      <Setter Property="Background" Value="#FF1E1E1E" />
+      <Setter Property="Stroke" Value="#78FFFFFF" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="GroupCategory" ValueLabel="Has category">
+      <Condition Expression="HasCategory('GroupCategory')" />
+      <Setter Property="Background" Value="#FF1E1E1E" />
+      <Setter Property="Stroke" Value="#78FFFFFF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FF1E1E1E" />
+      <Setter Property="Stroke" Value="#FF1E1E1E" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+    </Style>
+  </Styles>
+</DirectedGraph>
