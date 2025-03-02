@@ -19,8 +19,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Logger", "..\..\Korn.L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Plugins.Core", "..\..\Korn.Plugins.Core\Korn.Plugins.Core\Korn.Plugins.Core.csproj", "{47F29AD6-31C2-4EE7-8A72-951BDFBF63CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Plugins.ExternalInterface", "..\..\Korn.Plugins.ExternalInterface\Korn.Plugins.ExternalInterface\Korn.Plugins.ExternalInterface.csproj", "{85F7652A-61C0-48FC-8B8D-D32D4B7F258D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Service", "..\..\Korn.Service\Korn.Service\Korn.Service.csproj", "{F4961E7E-F8CD-4B35-8A32-ED759E4DA103}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Utils.GithubExplorer", "..\..\Korn.Utils.GithubExplorer\Korn.Utils.GithubExplorer\Korn.Utils.GithubExplorer.csproj", "{66280733-4DFB-4F66-B9CA-5ACF816DBEA0}"
@@ -45,13 +43,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.CoreCLR", "..\..\Korn.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Shared", "..\..\Korn.Shared\Korn.Shared\Korn.Shared.csproj", "{5A592FBF-FAA4-4EBE-ACE3-1F4DFF87B79E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Shared.Internal", "..\..\Korn.Shared\Korn.Shared.Internal\Korn.Shared.Internal.csproj", "{DDCF418F-E39F-46D2-BDFA-E3D4995DC604}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Utils.Assembler", "..\..\Korn.Utils.Assembler\Korn.Utils.Assembler\Korn.Utils.Assembler.csproj", "{CBA08969-0C10-4EC0-A898-A838DFAA5404}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Utils.Memory", "..\..\Korn.Utils.Memory\Korn.Utils.Memory\Korn.Utils.Memory.csproj", "{D1743DBD-1F74-4B1E-A8E8-4AA273426CC4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Interface", "..\..\Korn.Interface\Korn.Interface\Korn.Interface.csproj", "{C6339D41-A91E-48FD-BD54-CF6B705EA58E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Shared.Internal", "..\..\Korn.Shared.Internal\Korn.Shared.Internal\Korn.Shared.Internal.csproj", "{845C0DC8-21E5-423A-A56E-F64DD66A6DC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,10 +89,6 @@ Global
 		{47F29AD6-31C2-4EE7-8A72-951BDFBF63CC}.Debug|x64.Build.0 = Debug|x64
 		{47F29AD6-31C2-4EE7-8A72-951BDFBF63CC}.Release|x64.ActiveCfg = Release|x64
 		{47F29AD6-31C2-4EE7-8A72-951BDFBF63CC}.Release|x64.Build.0 = Release|x64
-		{85F7652A-61C0-48FC-8B8D-D32D4B7F258D}.Debug|x64.ActiveCfg = Debug|x64
-		{85F7652A-61C0-48FC-8B8D-D32D4B7F258D}.Debug|x64.Build.0 = Debug|x64
-		{85F7652A-61C0-48FC-8B8D-D32D4B7F258D}.Release|x64.ActiveCfg = Release|x64
-		{85F7652A-61C0-48FC-8B8D-D32D4B7F258D}.Release|x64.Build.0 = Release|x64
 		{F4961E7E-F8CD-4B35-8A32-ED759E4DA103}.Debug|x64.ActiveCfg = Debug|x64
 		{F4961E7E-F8CD-4B35-8A32-ED759E4DA103}.Debug|x64.Build.0 = Debug|x64
 		{F4961E7E-F8CD-4B35-8A32-ED759E4DA103}.Release|x64.ActiveCfg = Release|x64
@@ -143,10 +137,6 @@ Global
 		{5A592FBF-FAA4-4EBE-ACE3-1F4DFF87B79E}.Debug|x64.Build.0 = Debug|x64
 		{5A592FBF-FAA4-4EBE-ACE3-1F4DFF87B79E}.Release|x64.ActiveCfg = Release|x64
 		{5A592FBF-FAA4-4EBE-ACE3-1F4DFF87B79E}.Release|x64.Build.0 = Release|x64
-		{DDCF418F-E39F-46D2-BDFA-E3D4995DC604}.Debug|x64.ActiveCfg = Debug|x64
-		{DDCF418F-E39F-46D2-BDFA-E3D4995DC604}.Debug|x64.Build.0 = Debug|x64
-		{DDCF418F-E39F-46D2-BDFA-E3D4995DC604}.Release|x64.ActiveCfg = Release|x64
-		{DDCF418F-E39F-46D2-BDFA-E3D4995DC604}.Release|x64.Build.0 = Release|x64
 		{CBA08969-0C10-4EC0-A898-A838DFAA5404}.Debug|x64.ActiveCfg = Debug|x64
 		{CBA08969-0C10-4EC0-A898-A838DFAA5404}.Debug|x64.Build.0 = Debug|x64
 		{CBA08969-0C10-4EC0-A898-A838DFAA5404}.Release|x64.ActiveCfg = Release|x64
@@ -159,6 +149,10 @@ Global
 		{C6339D41-A91E-48FD-BD54-CF6B705EA58E}.Debug|x64.Build.0 = Debug|x64
 		{C6339D41-A91E-48FD-BD54-CF6B705EA58E}.Release|x64.ActiveCfg = Release|x64
 		{C6339D41-A91E-48FD-BD54-CF6B705EA58E}.Release|x64.Build.0 = Release|x64
+		{845C0DC8-21E5-423A-A56E-F64DD66A6DC8}.Debug|x64.ActiveCfg = Debug|x64
+		{845C0DC8-21E5-423A-A56E-F64DD66A6DC8}.Debug|x64.Build.0 = Debug|x64
+		{845C0DC8-21E5-423A-A56E-F64DD66A6DC8}.Release|x64.ActiveCfg = Release|x64
+		{845C0DC8-21E5-423A-A56E-F64DD66A6DC8}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
