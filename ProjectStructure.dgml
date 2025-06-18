@@ -1,50 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DirectedGraph GraphDirection="LeftToRight" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="000526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="674.073966878255,554.612445742849,330.463333333333,98.1001999999999" Group="Expanded" Label="Korn.Plugins.Core" />
+    <Node Id="000526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="654.384505139735,554.612445742849,330.463333333333,98.1001999999999" Group="Expanded" Label="Korn.Plugins.Core" />
     <Node Id="001526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="673.176634129817,822.292779619328,198.53,44" Group="Expanded" Label="Yotic.Korn.MainPlugin" />
-    <Node Id="002526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="733.685510874781,682.712745742859,257.9,44" Group="Expanded" Label="Korn.Plugins.ExternalInterface" UseManualLocation="True" />
-    <Node Id="02c526ed-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="1436.33967295965,535.103099413911,198.32,25" Label="Newtonsoft.Json (13.0.3)" />
-    <Node Id="151cbc1c-6e30-4b5c-81d8-60377ad3240c1" Category="AssemblyCategory" Bounds="-140.88615034558,247.872020597143,383.236666666667,84.0502" Group="Expanded" Label="Korn.Utils.GithubExplorer" />
-    <Node Id="359deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="168.904738769387,635.853103595179,264.076666666667,52.15" Label="• Library, providing a shared logger &#xD;&#xA;  for all Korn applications.&#xD;&#xA;  Provides customised exceptions" />
-    <Node Id="4f2bcfd6-6cdc-4042-be6d-2ce4e405d45b1" Category="Comment" Bounds="-120.88615034558,287.872120597143,343.236666666667,24.05" Label="• Library for exploring GitHub repository content" />
-    <Node Id="5e9c22f9-366a-4486-a58f-d36ee48b2ab41" Category="Comment" Bounds="1354.4509322781,311.633709824,428.993333333333,38.0999999999999" Label="• Application for testing projects that interact with the CLR.&#xD;&#xA;  For example: Korn.CLR, Korn.Hooking" />
-    <Node Id="81c526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="148.904741719419,738.004354662216,376.64,98.1001999999999" Group="Expanded" Label="Korn.Utils.System" />
-    <Node Id="81c526e5-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="-140.88615034558,119.771748990697,383.236666666667,98.1001999999999" Group="Expanded" Label="Korn.Utils.VisualStudio" />
-    <Node Id="81c526e6-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="-141.784617040729,-8.32867672951794,330.463333333333,98.1001999999999" Group="Expanded" Label="Korn.Utils.WinForms" />
-    <Node Id="81c526e7-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="546.578785304128,106.014106769891,330.463333333333,98.1002" Group="Expanded" Label="Korn.AssemblyInjector" />
-    <Node Id="82c526eD-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="1436.33967947007,590.103199413608,204.916666666666,25" Label="System.Management (8.0.0)" />
-    <Node Id="839247b7-bb4c-4fc1-895f-6328e8efa7751" Category="Comment" Bounds="238.678667362754,36.1533553383531,217.9,24.05" Label="• Libary for reading PE images" />
-    <Node Id="8cb526e4-bfad-4be2-bb42-b25296cdf7d91" Category="GroupCategory" Bounds="-161.784617040729,-48.328776729518,658.363284403483,514.301420812989" Group="Expanded" Label="Utilities" />
-    <Node Id="8cc526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="1327.2955838748,83.5206040891769,482.396666666667,122.1502" Group="Expanded" Label="Korn.Bootstrapper" UseManualLocation="True" />
-    <Node Id="8cd526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="1845.69480353461,284.107813315211,257.900000000001,84.0502000000001" Group="Expanded" Label="Korn.Installer" UseManualLocation="True" />
-    <Node Id="8ce526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="920.235499578217,241.13924456286,337.06,84.0502000000002" Group="Expanded" Label="Korn.Hooking" />
-    <Node Id="8cf526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="148.904738769387,595.852853595179,304.076666666667,112.1502" Group="Expanded" Label="Korn.Logger" />
-    <Node Id="9ba306a6-40f1-45b2-ae6d-d770806bb2561" Category="Comment" Bounds="1879.69216518826,147.900261032496,389.413333333333,66.1999999999998" Label="• Application, which is a Service-Process.&#xD;&#xA;  It performs some preventive work to keep Korn healthy,&#xD;&#xA;  searching for Visual Studio applications &#xD;&#xA;  for further initial interaction with them" />
-    <Node Id="BuildPackage" Category="AssemblyCategory" Bounds="1334.4509322781,271.633609824,468.993333333333,98.1001999999999" Group="Expanded" Label="ConsoleTestCLR" UseManualLocation="True" />
-    <Node Id="CSharp" Category="AssemblyCategory" Bounds="546.578767807383,234.114406769891,343.656666666667,98.1002" Group="Expanded" Label="Korn.CLR" />
-    <Node Id="Internal" Category="GroupCategory" Bounds="1307.2955838748,27.8999610324958,1501.01326425616,361.833948791504" Group="Expanded" Label="Internal projects" UseManualLocation="True" />
-    <Node Id="Korn." Category="AssemblyCategory" Bounds="218.678667362754,-3.84674466164695,257.9,84.0502" Group="Expanded" Label="Korn.Utils.PEImageReader" UseManualLocation="True" />
-    <Node Id="Korn.Analyze" Category="AssemblyCategory" Bounds="2319.10551479763,114.925153403101,449.203333333333,112.1502" Group="Expanded" Label="Korn.AutorunService (.netframework)" />
-    <Node Id="Korn.Commands" Category="AssemblyCategory" Bounds="1859.69216518826,107.900161032496,429.413333333332,126.2002" Group="Expanded" Label="Korn.Service" />
-    <Node Id="Korn.Tasks" Category="AssemblyCategory" Bounds="-140.886167842325,361.922344083471,396.43,84.0501999999999" Group="Expanded" Label="Korn.Utils.UnsafePDBResolver" />
-    <Node Id="a59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="940.235499578217,281.13934456286,297.06,24.0500000000002" Label="• Library for unsafe multi-hooking methods" />
-    <Node Id="a7b88fcf-2c33-46f3-8c00-e7f87bda32a01" Category="GroupCategory" Bounds="526.578767807383,66.014006769891,750.716731770834,286.2007" Group="Expanded" Label="CLR iteration" UseManualLocation="True" />
-    <Node Id="a7bab77f-2c33-46f3-8c00-e7f87bda32a01" Category="GroupCategory" Bounds="1416.33967065127,495.102996348272,244.916666666666,140.000303065336" Group="Expanded" Label="External libraries" UseManualLocation="True" />
-    <Node Id="a7babfcf-2c33-46f3-8c00-e7f87bda32a01" Category="GroupCategory" Bounds="654.073966878255,514.612345742849,370.463333333333,232.1005" Group="Expanded" Label="Plugins libraries" UseManualLocation="True" />
+    <Node Id="002526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="713.996049136261,682.712745742859,257.9,44" Group="Expanded" Label="Korn.Plugins.ExternalInterface" UseManualLocation="True" />
+    <Node Id="02c526ed-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="1440.33967065127,578.769780925595,198.32,25" Label="Newtonsoft.Json (13.0.3)" />
+    <Node Id="151cbc1c-6e30-4b5c-81d8-60377ad3240c1" Category="AssemblyCategory" Bounds="-143.886155283634,234.919071778954,383.236666666667,84.0502" Group="Expanded" Label="Korn.Utils.GithubExplorer" />
+    <Node Id="359deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="1074.84783847307,580.057676085442,264.076666666667,52.1500000000001" Label="• Library, providing a shared logger &#xD;&#xA;  for all Korn applications.&#xD;&#xA;  Provides customised exceptions" />
+    <Node Id="4f2bcfd6-6cdc-4042-be6d-2ce4e405d45b1" Category="Comment" Bounds="-123.886155283634,274.919171778954,343.236666666667,24.05" Label="• Library for exploring GitHub repository content" />
+    <Node Id="5e9c22f9-366a-4486-a58f-d36ee48b2ab41" Category="Comment" Bounds="1351.4697585341,299.304892871446,428.993333333333,38.0999999999999" Label="• Application for testing projects that interact with the CLR.&#xD;&#xA;  For example: Korn.CLR, Korn.Hooking" />
+    <Node Id="81c526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="148.904738769387,666.928177090411,376.64,98.0999999999999" Group="Expanded" Label="Korn.Utils.System" />
+    <Node Id="81c526e5-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="-143.886155283634,106.818800172508,383.236666666667,98.1001999999999" Group="Expanded" Label="Korn.Utils.VisualStudio" />
+    <Node Id="81c526e6-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="-144.784621978783,-21.2816255477074,330.463333333333,98.1001999999999" Group="Expanded" Label="Korn.Utils.WinForms" />
+    <Node Id="81c526e7-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="543.578779921444,94.2752400457611,330.463333333333,98.1002" Group="Expanded" Label="Korn.AssemblyInjector" />
+    <Node Id="82c526eD-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="1440.33967065127,633.769880925595,204.916666666666,25" Label="System.Management (8.0.0)" />
+    <Node Id="839247b7-bb4c-4fc1-895f-6328e8efa7751" Category="Comment" Bounds="235.6786624247,23.2004065201636,217.9,24.05" Label="• Libary for reading PE images" />
+    <Node Id="8cb526e4-bfad-4be2-bb42-b25296cdf7d91" Category="GroupCategory" Bounds="-164.784621978783,-61.2817255477074,658.363284403483,514.301420812989" Group="Expanded" Label="Utilities" UseManualLocation="True" />
+    <Node Id="8cc526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="1324.3144101308,71.1917871366226,482.396666666667,122.1502" Group="Expanded" Label="Korn.Bootstrapper" UseManualLocation="True" />
+    <Node Id="8cd526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="1842.71362979061,271.778996362657,257.9,84.0502000000001" Group="Expanded" Label="Korn.Installer" UseManualLocation="True" />
+    <Node Id="8ce526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="917.235494195533,229.40037783873,337.06,84.0502000000001" Group="Expanded" Label="Korn.Hooking" />
+    <Node Id="8cf526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="1054.84783847307,540.057676085442,304.076666666667,112.15" Group="Expanded" Label="Korn.Logger" />
+    <Node Id="9ba306a6-40f1-45b2-ae6d-d770806bb2561" Category="Comment" Bounds="1876.71099144426,135.571444079942,389.413333333333,66.1999999999998" Label="• Application, which is a Service-Process.&#xD;&#xA;  It performs some preventive work to keep Korn healthy,&#xD;&#xA;  searching for Visual Studio applications &#xD;&#xA;  for further initial interaction with them" />
+    <Node Id="BuildPackage" Category="AssemblyCategory" Bounds="1331.4697585341,259.304792871445,468.993333333333,98.1002" Group="Expanded" Label="ConsoleTestCLR" UseManualLocation="True" />
+    <Node Id="CSharp" Category="AssemblyCategory" Bounds="543.578762424699,222.375540045761,343.656666666667,98.1002" Group="Expanded" Label="Korn.CLR" />
+    <Node Id="Internal" Category="GroupCategory" Bounds="1304.3144101308,15.5711440799416,1501.01326425616,361.833948791504" Group="Expanded" Label="Internal projects" UseManualLocation="True" />
+    <Node Id="Korn." Category="AssemblyCategory" Bounds="215.6786624247,-16.7996934798364,257.9,84.0502" Group="Expanded" Label="Korn.Utils.PEImageReader" UseManualLocation="True" />
+    <Node Id="Korn.Analyze" Category="AssemblyCategory" Bounds="2316.12434105363,102.596336450547,449.203333333333,112.1502" Group="Expanded" Label="Korn.AutorunService (.netframework)" />
+    <Node Id="Korn.Commands" Category="AssemblyCategory" Bounds="1856.71099144426,95.5713440799416,429.413333333332,126.2002" Group="Expanded" Label="Korn.Service" />
+    <Node Id="Korn.Tasks" Category="AssemblyCategory" Bounds="-143.886172780379,348.969395265282,396.43,84.0502000000001" Group="Expanded" Label="Korn.Modules.UnsafePDBResolver" />
+    <Node Id="a59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="937.235494195533,269.40047783873,297.06,24.0500000000002" Label="• Library for unsafe multi-hooking methods" />
+    <Node Id="a7b88fcf-2c33-46f3-8c00-e7f87bda32a01" Category="GroupCategory" Bounds="523.578762424699,54.2751400457611,750.716731770834,286.2007" Group="Expanded" Label="CLR iteration" UseManualLocation="True" />
+    <Node Id="a7bab77f-2c33-46f3-8c00-e7b87bda32a01" Category="GroupCategory" Bounds="1034.84783847307,500.057676085442,344.076666666667,172.15" Group="Expanded" Label="External libraries" UseManualLocation="True" />
+    <Node Id="a7bab77f-2c33-46f3-8c00-e7f87bda32a01" Category="GroupCategory" Bounds="1420.33967065127,538.769680925595,244.916666666666,140.0003" Group="Expanded" Label="External libraries" UseManualLocation="True" />
+    <Node Id="a7babfcf-2c33-46f3-8c00-e7f87bda32a01" Category="GroupCategory" Bounds="634.384505139735,514.612345742849,370.463333333333,232.10050000001" Group="Expanded" Label="Plugins libraries" UseManualLocation="True" />
     <Node Id="a7babfcf-2c33-46f3-8c02-e7f87bda32b09" Category="GroupCategory" Bounds="653.176634129817,782.292679619328,238.53,104.0002" Group="Expanded" Label="Plugins" UseManualLocation="True" />
-    <Node Id="a99abfcf-2c33-46f3-8c00-e7f87bda32a01" Category="GroupCategory" Bounds="128.904738769387,555.853954662216,416.640002950032,300.2507" Group="Expanded" Label="Shared libraries" UseManualLocation="True" />
-    <Node Id="afb14cab-430a-4909-8cf9-2fb9e1bec2ad1" Category="GroupCategory" Bounds="1839.69216518826,67.9000610324957,948.616682942702,186.2004" Group="Expanded" Label="Service" />
-    <Node Id="b59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="1865.69480353461,324.107913315211,217.9,24.0500000000002" Label="• Application — Korn installer" UseManualLocation="True" />
-    <Node Id="c59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="1347.2955838748,123.520704089177,442.396666666667,62.1500000000001" Group="Expanded" Label="• Library designed to be injected into processes for further&#xD;&#xA;  loading of modules and plug-ins into the process.&#xD;&#xA;  It is responsible for the initial configuration environment" />
-    <Node Id="dfb5fecb-a5a2-48a2-a842-3cb5a8cfb76c1" Category="Comment" Bounds="566.578767807383,274.114363561845,303.656666666667,38.0999999999999" Label="• Library for the insecure interaction with&#xD;&#xA;  the internal components of the CoreCLR" />
-    <Node Id="fd4e503a-ff50-43a9-a681-608d7040678b1" Category="Comment" Bounds="2339.10551479763,154.925253403101,409.203333333333,52.1500000000001" Label="• Windows service, which is required to automatically start&#xD;&#xA;  the Service-Porcess Korn.Service. &#xD;&#xA;  Keeps it running the whole time the OS is running" />
-    <Node Id="ffd8475e-10bc-46d0-a912-c6eb580bc08e1" Category="Comment" Bounds="-120.886167842325,401.922444083471,356.43,24.05" Label="• Library for unsafe data resolving from .pdb files" />
-    <Node Id="•" Category="Comment" Bounds="168.90474171942,778.003103595179,336.64,38.0999999999999" Label="• Library providing interaction with the system.&#xD;&#xA;  For example: with system variables " />
-    <Node Id="•1" Category="Comment" Bounds="-120.88615034558,159.771848990697,343.236666666667,38.0999999999999" Label="• Library related to utilities for Visual Studio.&#xD;&#xA;  For example: vswhere" />
-    <Node Id="•2" Category="Comment" Bounds="-121.784617040729,31.6714232704821,290.463333333333,38.0999999999999" Label="• Library with some ready components for&#xD;&#xA;  quick creation of WinForms applications" />
-    <Node Id="•3" Category="Comment" Bounds="566.578785304128,146.014349977937,290.463333333333,38.1" Label="• Library providing functions for remote &#xD;&#xA;  library injection into processes" />
-    <Node Id="•ALib" Category="Comment" Bounds="694.073966878255,594.612545742849,290.463333333333,38.0999999999999" Label="• Library, which is the core for plugins.&#xD;&#xA;  It stores the environment configuration" />
+    <Node Id="a99abfcf-2c33-46f3-8c00-e7f87bda32a01" Category="GroupCategory" Bounds="128.904738769387,626.928177090411,416.64,158.1" Group="Expanded" Label="Shared libraries" UseManualLocation="True" />
+    <Node Id="afb14cab-430a-4909-8cf9-2fb9e1bec2ad1" Category="GroupCategory" Bounds="1836.71099144426,55.5712440799416,948.616682942702,186.2004" Group="Expanded" Label="Service" />
+    <Node Id="b59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="1862.71362979061,311.779096362657,217.900000000001,24.0500000000002" Label="• Application — Korn installer" UseManualLocation="True" />
+    <Node Id="c59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="1344.3144101308,111.191887136623,442.396666666667,62.1500000000001" Group="Expanded" Label="• Library designed to be injected into processes for further&#xD;&#xA;  loading of modules and plug-ins into the process.&#xD;&#xA;  It is responsible for the initial configuration environment" />
+    <Node Id="dfb5fecb-a5a2-48a2-a842-3cb5a8cfb76c1" Category="Comment" Bounds="563.578762424699,262.375496837715,303.656666666667,38.0999999999999" Label="• Library for the insecure interaction with&#xD;&#xA;  the internal components of the CoreCLR" />
+    <Node Id="fd4e503a-ff50-43a9-a681-608d7040678b1" Category="Comment" Bounds="2336.12434105363,142.596436450547,409.203333333333,52.1500000000001" Label="• Windows service, which is required to automatically start&#xD;&#xA;  the Service-Porcess Korn.Service. &#xD;&#xA;  Keeps it running the whole time the OS is running" />
+    <Node Id="ffd8475e-10bc-46d0-a912-c6eb580bc08e1" Category="Comment" Bounds="-123.886172780379,388.969495265282,356.43,24.05" Label="• Library for unsafe data resolving from .pdb files" />
+    <Node Id="•" Category="Comment" Bounds="168.904738769387,706.928177090411,336.64,38.0999999999999" Label="• Library providing interaction with the system.&#xD;&#xA;  For example: with system variables " />
+    <Node Id="•1" Category="Comment" Bounds="-123.886155283634,146.818900172508,343.236666666667,38.0999999999999" Label="• Library related to utilities for Visual Studio.&#xD;&#xA;  For example: vswhere" />
+    <Node Id="•2" Category="Comment" Bounds="-124.784621978783,18.7184744522926,290.463333333333,38.0999999999999" Label="• Library with some ready components for&#xD;&#xA;  quick creation of WinForms applications" />
+    <Node Id="•3" Category="Comment" Bounds="563.578779921444,134.275483253807,290.463333333333,38.1" Label="• Library providing functions for remote &#xD;&#xA;  library injection into processes" />
+    <Node Id="•ALib" Category="Comment" Bounds="674.384505139735,594.612545742849,290.463333333333,38.0999999999999" Label="• Library, which is the core for plugins.&#xD;&#xA;  It stores the environment configuration" />
   </Nodes>
   <Links>
     <Link Source="000526e4-bfad-4be2-bb42-b25296cdf7d91" Target="•ALib" Category="Contains" />
@@ -69,7 +70,7 @@
     <Link Source="8ce526e4-bfad-4be2-bb42-b25296cdf7d91" Target="a59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Contains" />
     <Link Source="8cf526e4-bfad-4be2-bb42-b25296cdf7d91" Target="359deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Contains" />
     <Link Source="BuildPackage" Target="5e9c22f9-366a-4486-a58f-d36ee48b2ab41" Category="Contains" />
-    <Link Source="CSharp" Target="8ce526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="890.235473632813,283.514343261719,21,0" />
+    <Link Source="CSharp" Target="8ce526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="887.235473632813,271.425476074219,21,0" />
     <Link Source="CSharp" Target="BuildPackage" Bounds="947.362923078913,152.959346019431,491.525109966169,134.451221625816" />
     <Link Source="CSharp" Target="dfb5fecb-a5a2-48a2-a842-3cb5a8cfb76c1" Category="Contains" />
     <Link Source="Internal" Target="8cc526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
@@ -81,19 +82,19 @@
     <Link Source="Korn.Analyze" Target="8cd526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="1590.61890963289,247.269374902344,225.732845083485,61.5372363394956" />
     <Link Source="Korn.Analyze" Target="fd4e503a-ff50-43a9-a681-608d7040678b1" Category="Contains" />
     <Link Source="Korn.Commands" Target="9ba306a6-40f1-45b2-ae6d-d770806bb2561" Category="Contains" />
-    <Link Source="Korn.Commands" Target="Korn.Analyze" Bounds="2289.10546875,170.740875244141,21,0" />
+    <Link Source="Korn.Commands" Target="Korn.Analyze" Bounds="2286.12426757813,158.671447753906,21,0" />
     <Link Source="Korn.Tasks" Target="81c526e7-bfad-4be2-bb42-b25296cdf7d91" Bounds="313.482216067168,322.809308145212,662.406711269688,108.540219549916" />
     <Link Source="Korn.Tasks" Target="ffd8475e-10bc-46d0-a912-c6eb580bc08e1" Category="Contains" />
     <Link Source="a7b88fcf-2c33-46f3-8c00-e7f87bda32a01" Target="81c526e7-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
     <Link Source="a7b88fcf-2c33-46f3-8c00-e7f87bda32a01" Target="8ce526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
     <Link Source="a7b88fcf-2c33-46f3-8c00-e7f87bda32a01" Target="CSharp" Category="Contains" />
+    <Link Source="a7bab77f-2c33-46f3-8c00-e7b87bda32a01" Target="8cf526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
     <Link Source="a7bab77f-2c33-46f3-8c00-e7f87bda32a01" Target="02c526ed-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
     <Link Source="a7bab77f-2c33-46f3-8c00-e7f87bda32a01" Target="82c526eD-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
     <Link Source="a7babfcf-2c33-46f3-8c00-e7f87bda32a01" Target="000526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
     <Link Source="a7babfcf-2c33-46f3-8c00-e7f87bda32a01" Target="002526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
     <Link Source="a7babfcf-2c33-46f3-8c02-e7f87bda32b09" Target="001526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
     <Link Source="a99abfcf-2c33-46f3-8c00-e7f87bda32a01" Target="81c526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
-    <Link Source="a99abfcf-2c33-46f3-8c00-e7f87bda32a01" Target="8cf526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
     <Link Source="afb14cab-430a-4909-8cf9-2fb9e1bec2ad1" Target="Korn.Analyze" Category="Contains" />
     <Link Source="afb14cab-430a-4909-8cf9-2fb9e1bec2ad1" Target="Korn.Commands" Category="Contains" />
   </Links>

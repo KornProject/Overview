@@ -3,13 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.AssemblyInjector", "..\..\Korn.AssemblyInjector\Korn.AssemblyInjector\Korn.AssemblyInjector.csproj", "{BCE8F1A5-4788-40EF-A5DA-A340B64E4ED4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.AutorunService", "..\..\Korn.AutorunService\Korn.AutorunService\Korn.AutorunService.csproj", "{5A9ACD95-861B-4B7C-99F2-BC03D2D93FA6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Bootstrapper", "..\..\Korn.Bootstrapper\Korn.Bootstrapper\Korn.Bootstrapper.csproj", "{0D2EA406-DE83-4D47-9219-50E199EAC0B8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.CLR", "..\..\Korn.CLR\Korn.CLR\Korn.CLR.csproj", "{E7E479F6-3B2B-4695-A738-A9E5823DFB16}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Hooking", "..\..\Korn.Hooking\Korn.Hooking\Korn.Hooking.csproj", "{9BC42CE5-1F91-48EB-9D50-2E1A12C5CA4D}"
 EndProject
@@ -18,8 +12,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Logger", "..\..\Korn.Logger\Korn.Logger\Korn.Logger.csproj", "{15CB2A61-2BD7-4406-82EF-8EAFA22889FA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Plugins.Core", "..\..\Korn.Plugins.Core\Korn.Plugins.Core\Korn.Plugins.Core.csproj", "{47F29AD6-31C2-4EE7-8A72-951BDFBF63CC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Service", "..\..\Korn.Service\Korn.Service\Korn.Service.csproj", "{F4961E7E-F8CD-4B35-8A32-ED759E4DA103}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Utils.GithubExplorer", "..\..\Korn.Utils.GithubExplorer\Korn.Utils.GithubExplorer\Korn.Utils.GithubExplorer.csproj", "{66280733-4DFB-4F66-B9CA-5ACF816DBEA0}"
 EndProject
@@ -39,11 +31,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTestCLR", "..\..\Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTestCLR.netframework", "..\..\ConsoleTestCLR\ConsoleTestCLR.netframework\ConsoleTestCLR.netframework.csproj", "{F36618D7-0E55-4442-A031-77A2E1143E14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.CoreCLR", "..\..\Korn.CoreCLR\Korn.CoreCLR\Korn.CoreCLR.csproj", "{FA496D97-B404-484C-8F11-0E19B7CB0D7B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Shared", "..\..\Korn.Shared\Korn.Shared\Korn.Shared.csproj", "{5A592FBF-FAA4-4EBE-ACE3-1F4DFF87B79E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Utils.Assembler", "..\..\Korn.Utils.Assembler\Korn.Utils.Assembler\Korn.Utils.Assembler.csproj", "{CBA08969-0C10-4EC0-A898-A838DFAA5404}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Modules.Assembler", "..\..\Korn.Modules.Assembler\Korn.Modules.Assembler\Korn.Modules.Assembler.csproj", "{CBA08969-0C10-4EC0-A898-A838DFAA5404}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Utils.Memory", "..\..\Korn.Utils.Memory\Korn.Utils.Memory\Korn.Utils.Memory.csproj", "{D1743DBD-1F74-4B1E-A8E8-4AA273426CC4}"
 EndProject
@@ -51,28 +41,56 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Interface", "..\..\Kor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Shared.Internal", "..\..\Korn.Shared.Internal\Korn.Shared.Internal\Korn.Shared.Internal.csproj", "{845C0DC8-21E5-423A-A56E-F64DD66A6DC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Installer.Core", "..\..\Korn.Installer.Core\Korn.Installer.Core\Korn.Installer.Core.csproj", "{09C76439-963C-459D-BCC6-107F95EC9726}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Modules.Algorithms", "..\..\Korn.Modules.Algorithms\Korn.Modules.Algorithms\Korn.Modules.Algorithms.csproj", "{C4B21F6C-1697-43A1-9B5F-D1ACD71CBC06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Pipes", "..\..\Korn.Pipes\Korn.Pipes\Korn.Pipes.csproj", "{7E0E03D5-A7CE-4554-B55B-E7A096501F12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Service.Client", "..\..\Korn.Service.Client\Korn.Service.Client\Korn.Service.Client.csproj", "{B9F06692-B491-44A7-B926-5185A9ED8F12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Service.Server", "..\..\Korn.Service.Server\Korn.Service.Server\Korn.Service.Server.csproj", "{9EF930A3-7818-438A-A542-6529767952E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Service.Shared", "..\..\Korn.Service.Shared\Korn.Service.Shared\Korn.Service.Shared.csproj", "{9D5F6E89-CEB5-425A-9483-3B6EE39A8D54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Services.Logger", "..\..\Korn.Services.Logger\Korn.Services.Logger\Korn.Services.Logger.csproj", "{0BB38CE2-9D2F-4914-80FE-87B5BFEAE6C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.WinServices.ServiceHub", "..\..\Korn.WinServices.ServiceHub\Korn.WinServices.ServiceHub\Korn.WinServices.ServiceHub.csproj", "{5A9ACD95-861B-4B7C-99F2-BC03D2D93FA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Services.Injector", "..\..\Korn.Services.Injector\Korn.Services.Injector\Korn.Services.Injector.csproj", "{E181F353-6A55-408E-AA3F-68826C2F2AE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Logger.Core", "..\..\Korn.Logger.Core\Korn.Logger.Core\Korn.Logger.Core.csproj", "{4728391D-C773-4C08-8576-E94C035AF9CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Core", "..\..\Korn.Core\Korn.Core\Korn.Core.csproj", "{EAD2EA6D-08C0-49C8-9AAB-94FABF6B640B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Auxiliary.BinariesUploader", "..\..\Korn.Auxiliary.BinariesUploader\Korn.Auxiliary.BinariesUploader\Korn.Auxiliary.BinariesUploader.csproj", "{0DF66863-33B6-4261-BBA6-A0190FE8C85A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.CLR", "..\..\z Korn.CLR\Korn.CLR\Korn.CLR.csproj", "{79394F0B-2B86-4EF5-AFB1-022B417042D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.CoreCLR", "..\..\z Korn.CoreCLR\Korn.CoreCLR\Korn.CoreCLR.csproj", "{1412C2FF-6B64-4E6A-8F84-4D978737A198}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Modules.WinApi", "..\..\Korn.Modules.WinApi\Korn.Modules.WinApi\Korn.Modules.WinApi.csproj", "{A90398D9-7005-4962-B2B5-9AEC483189CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.ClrJit", "..\..\Korn.ClrJit\Korn.ClrJit\Korn.ClrJit.csproj", "{355B2595-1CA6-4852-83E4-7DBA0A261433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Utils.Process", "..\..\Korn.Utils.Process\Korn.Utils.Process\Korn.Utils.Process.csproj", "{CF48CB72-4DB9-4EB8-9B8B-8108E3E25CB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Modules.Com", "..\..\Korn.Modules.Com\Korn.Modules.Com\Korn.Modules.Com.csproj", "{8D23602F-2DBA-4002-BBEA-D0B011E2E296}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Modules.Unsafe", "..\..\Korn.Modules.Unsafe\Korn.Modules.Unsafe\Korn.Modules.Unsafe.csproj", "{5192FE57-E190-4D59-B381-93B5D2FF9E1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.AssemblyInjector", "..\..\Korn.AssemblyInjector\Korn.AssemblyInjector\Korn.AssemblyInjector.csproj", "{23447E4C-AB93-414E-ADDC-98014BA623B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BCE8F1A5-4788-40EF-A5DA-A340B64E4ED4}.Debug|x64.ActiveCfg = Debug|x64
-		{BCE8F1A5-4788-40EF-A5DA-A340B64E4ED4}.Debug|x64.Build.0 = Debug|x64
-		{BCE8F1A5-4788-40EF-A5DA-A340B64E4ED4}.Release|x64.ActiveCfg = Release|x64
-		{BCE8F1A5-4788-40EF-A5DA-A340B64E4ED4}.Release|x64.Build.0 = Release|x64
-		{5A9ACD95-861B-4B7C-99F2-BC03D2D93FA6}.Debug|x64.ActiveCfg = Debug|x64
-		{5A9ACD95-861B-4B7C-99F2-BC03D2D93FA6}.Debug|x64.Build.0 = Debug|x64
-		{5A9ACD95-861B-4B7C-99F2-BC03D2D93FA6}.Release|x64.ActiveCfg = Release|x64
-		{5A9ACD95-861B-4B7C-99F2-BC03D2D93FA6}.Release|x64.Build.0 = Release|x64
 		{0D2EA406-DE83-4D47-9219-50E199EAC0B8}.Debug|x64.ActiveCfg = Debug|x64
 		{0D2EA406-DE83-4D47-9219-50E199EAC0B8}.Debug|x64.Build.0 = Debug|x64
 		{0D2EA406-DE83-4D47-9219-50E199EAC0B8}.Release|x64.ActiveCfg = Release|x64
 		{0D2EA406-DE83-4D47-9219-50E199EAC0B8}.Release|x64.Build.0 = Release|x64
-		{E7E479F6-3B2B-4695-A738-A9E5823DFB16}.Debug|x64.ActiveCfg = Debug|x64
-		{E7E479F6-3B2B-4695-A738-A9E5823DFB16}.Debug|x64.Build.0 = Debug|x64
-		{E7E479F6-3B2B-4695-A738-A9E5823DFB16}.Release|x64.ActiveCfg = Release|x64
-		{E7E479F6-3B2B-4695-A738-A9E5823DFB16}.Release|x64.Build.0 = Release|x64
 		{9BC42CE5-1F91-48EB-9D50-2E1A12C5CA4D}.Debug|x64.ActiveCfg = Debug|x64
 		{9BC42CE5-1F91-48EB-9D50-2E1A12C5CA4D}.Debug|x64.Build.0 = Debug|x64
 		{9BC42CE5-1F91-48EB-9D50-2E1A12C5CA4D}.Release|x64.ActiveCfg = Release|x64
@@ -89,10 +107,6 @@ Global
 		{47F29AD6-31C2-4EE7-8A72-951BDFBF63CC}.Debug|x64.Build.0 = Debug|x64
 		{47F29AD6-31C2-4EE7-8A72-951BDFBF63CC}.Release|x64.ActiveCfg = Release|x64
 		{47F29AD6-31C2-4EE7-8A72-951BDFBF63CC}.Release|x64.Build.0 = Release|x64
-		{F4961E7E-F8CD-4B35-8A32-ED759E4DA103}.Debug|x64.ActiveCfg = Debug|x64
-		{F4961E7E-F8CD-4B35-8A32-ED759E4DA103}.Debug|x64.Build.0 = Debug|x64
-		{F4961E7E-F8CD-4B35-8A32-ED759E4DA103}.Release|x64.ActiveCfg = Release|x64
-		{F4961E7E-F8CD-4B35-8A32-ED759E4DA103}.Release|x64.Build.0 = Release|x64
 		{66280733-4DFB-4F66-B9CA-5ACF816DBEA0}.Debug|x64.ActiveCfg = Debug|x64
 		{66280733-4DFB-4F66-B9CA-5ACF816DBEA0}.Debug|x64.Build.0 = Debug|x64
 		{66280733-4DFB-4F66-B9CA-5ACF816DBEA0}.Release|x64.ActiveCfg = Release|x64
@@ -129,10 +143,6 @@ Global
 		{F36618D7-0E55-4442-A031-77A2E1143E14}.Debug|x64.Build.0 = Debug|x64
 		{F36618D7-0E55-4442-A031-77A2E1143E14}.Release|x64.ActiveCfg = Release|x64
 		{F36618D7-0E55-4442-A031-77A2E1143E14}.Release|x64.Build.0 = Release|x64
-		{FA496D97-B404-484C-8F11-0E19B7CB0D7B}.Debug|x64.ActiveCfg = Debug|x64
-		{FA496D97-B404-484C-8F11-0E19B7CB0D7B}.Debug|x64.Build.0 = Debug|x64
-		{FA496D97-B404-484C-8F11-0E19B7CB0D7B}.Release|x64.ActiveCfg = Release|x64
-		{FA496D97-B404-484C-8F11-0E19B7CB0D7B}.Release|x64.Build.0 = Release|x64
 		{5A592FBF-FAA4-4EBE-ACE3-1F4DFF87B79E}.Debug|x64.ActiveCfg = Debug|x64
 		{5A592FBF-FAA4-4EBE-ACE3-1F4DFF87B79E}.Debug|x64.Build.0 = Debug|x64
 		{5A592FBF-FAA4-4EBE-ACE3-1F4DFF87B79E}.Release|x64.ActiveCfg = Release|x64
@@ -153,6 +163,86 @@ Global
 		{845C0DC8-21E5-423A-A56E-F64DD66A6DC8}.Debug|x64.Build.0 = Debug|x64
 		{845C0DC8-21E5-423A-A56E-F64DD66A6DC8}.Release|x64.ActiveCfg = Release|x64
 		{845C0DC8-21E5-423A-A56E-F64DD66A6DC8}.Release|x64.Build.0 = Release|x64
+		{09C76439-963C-459D-BCC6-107F95EC9726}.Debug|x64.ActiveCfg = Debug|x64
+		{09C76439-963C-459D-BCC6-107F95EC9726}.Debug|x64.Build.0 = Debug|x64
+		{09C76439-963C-459D-BCC6-107F95EC9726}.Release|x64.ActiveCfg = Release|x64
+		{09C76439-963C-459D-BCC6-107F95EC9726}.Release|x64.Build.0 = Release|x64
+		{C4B21F6C-1697-43A1-9B5F-D1ACD71CBC06}.Debug|x64.ActiveCfg = Debug|x64
+		{C4B21F6C-1697-43A1-9B5F-D1ACD71CBC06}.Debug|x64.Build.0 = Debug|x64
+		{C4B21F6C-1697-43A1-9B5F-D1ACD71CBC06}.Release|x64.ActiveCfg = Release|x64
+		{C4B21F6C-1697-43A1-9B5F-D1ACD71CBC06}.Release|x64.Build.0 = Release|x64
+		{7E0E03D5-A7CE-4554-B55B-E7A096501F12}.Debug|x64.ActiveCfg = Debug|x64
+		{7E0E03D5-A7CE-4554-B55B-E7A096501F12}.Debug|x64.Build.0 = Debug|x64
+		{7E0E03D5-A7CE-4554-B55B-E7A096501F12}.Release|x64.ActiveCfg = Release|x64
+		{7E0E03D5-A7CE-4554-B55B-E7A096501F12}.Release|x64.Build.0 = Release|x64
+		{B9F06692-B491-44A7-B926-5185A9ED8F12}.Debug|x64.ActiveCfg = Debug|x64
+		{B9F06692-B491-44A7-B926-5185A9ED8F12}.Debug|x64.Build.0 = Debug|x64
+		{B9F06692-B491-44A7-B926-5185A9ED8F12}.Release|x64.ActiveCfg = Release|x64
+		{B9F06692-B491-44A7-B926-5185A9ED8F12}.Release|x64.Build.0 = Release|x64
+		{9EF930A3-7818-438A-A542-6529767952E8}.Debug|x64.ActiveCfg = Debug|x64
+		{9EF930A3-7818-438A-A542-6529767952E8}.Debug|x64.Build.0 = Debug|x64
+		{9EF930A3-7818-438A-A542-6529767952E8}.Release|x64.ActiveCfg = Release|x64
+		{9EF930A3-7818-438A-A542-6529767952E8}.Release|x64.Build.0 = Release|x64
+		{9D5F6E89-CEB5-425A-9483-3B6EE39A8D54}.Debug|x64.ActiveCfg = Debug|x64
+		{9D5F6E89-CEB5-425A-9483-3B6EE39A8D54}.Debug|x64.Build.0 = Debug|x64
+		{9D5F6E89-CEB5-425A-9483-3B6EE39A8D54}.Release|x64.ActiveCfg = Release|x64
+		{9D5F6E89-CEB5-425A-9483-3B6EE39A8D54}.Release|x64.Build.0 = Release|x64
+		{0BB38CE2-9D2F-4914-80FE-87B5BFEAE6C3}.Debug|x64.ActiveCfg = Debug|x64
+		{0BB38CE2-9D2F-4914-80FE-87B5BFEAE6C3}.Debug|x64.Build.0 = Debug|x64
+		{0BB38CE2-9D2F-4914-80FE-87B5BFEAE6C3}.Release|x64.ActiveCfg = Release|x64
+		{0BB38CE2-9D2F-4914-80FE-87B5BFEAE6C3}.Release|x64.Build.0 = Release|x64
+		{5A9ACD95-861B-4B7C-99F2-BC03D2D93FA6}.Debug|x64.ActiveCfg = Debug|x64
+		{5A9ACD95-861B-4B7C-99F2-BC03D2D93FA6}.Debug|x64.Build.0 = Debug|x64
+		{5A9ACD95-861B-4B7C-99F2-BC03D2D93FA6}.Release|x64.ActiveCfg = Release|x64
+		{5A9ACD95-861B-4B7C-99F2-BC03D2D93FA6}.Release|x64.Build.0 = Release|x64
+		{E181F353-6A55-408E-AA3F-68826C2F2AE1}.Debug|x64.ActiveCfg = Debug|x64
+		{E181F353-6A55-408E-AA3F-68826C2F2AE1}.Debug|x64.Build.0 = Debug|x64
+		{E181F353-6A55-408E-AA3F-68826C2F2AE1}.Release|x64.ActiveCfg = Release|x64
+		{E181F353-6A55-408E-AA3F-68826C2F2AE1}.Release|x64.Build.0 = Release|x64
+		{4728391D-C773-4C08-8576-E94C035AF9CD}.Debug|x64.ActiveCfg = Debug|x64
+		{4728391D-C773-4C08-8576-E94C035AF9CD}.Debug|x64.Build.0 = Debug|x64
+		{4728391D-C773-4C08-8576-E94C035AF9CD}.Release|x64.ActiveCfg = Release|x64
+		{4728391D-C773-4C08-8576-E94C035AF9CD}.Release|x64.Build.0 = Release|x64
+		{EAD2EA6D-08C0-49C8-9AAB-94FABF6B640B}.Debug|x64.ActiveCfg = Debug|x64
+		{EAD2EA6D-08C0-49C8-9AAB-94FABF6B640B}.Debug|x64.Build.0 = Debug|x64
+		{EAD2EA6D-08C0-49C8-9AAB-94FABF6B640B}.Release|x64.ActiveCfg = Release|x64
+		{EAD2EA6D-08C0-49C8-9AAB-94FABF6B640B}.Release|x64.Build.0 = Release|x64
+		{0DF66863-33B6-4261-BBA6-A0190FE8C85A}.Debug|x64.ActiveCfg = Debug|x64
+		{0DF66863-33B6-4261-BBA6-A0190FE8C85A}.Debug|x64.Build.0 = Debug|x64
+		{0DF66863-33B6-4261-BBA6-A0190FE8C85A}.Release|x64.ActiveCfg = Release|x64
+		{0DF66863-33B6-4261-BBA6-A0190FE8C85A}.Release|x64.Build.0 = Release|x64
+		{79394F0B-2B86-4EF5-AFB1-022B417042D8}.Debug|x64.ActiveCfg = Debug|x64
+		{79394F0B-2B86-4EF5-AFB1-022B417042D8}.Debug|x64.Build.0 = Debug|x64
+		{79394F0B-2B86-4EF5-AFB1-022B417042D8}.Release|x64.ActiveCfg = Release|x64
+		{79394F0B-2B86-4EF5-AFB1-022B417042D8}.Release|x64.Build.0 = Release|x64
+		{1412C2FF-6B64-4E6A-8F84-4D978737A198}.Debug|x64.ActiveCfg = Debug|x64
+		{1412C2FF-6B64-4E6A-8F84-4D978737A198}.Debug|x64.Build.0 = Debug|x64
+		{1412C2FF-6B64-4E6A-8F84-4D978737A198}.Release|x64.ActiveCfg = Release|x64
+		{1412C2FF-6B64-4E6A-8F84-4D978737A198}.Release|x64.Build.0 = Release|x64
+		{A90398D9-7005-4962-B2B5-9AEC483189CE}.Debug|x64.ActiveCfg = Debug|x64
+		{A90398D9-7005-4962-B2B5-9AEC483189CE}.Debug|x64.Build.0 = Debug|x64
+		{A90398D9-7005-4962-B2B5-9AEC483189CE}.Release|x64.ActiveCfg = Release|x64
+		{A90398D9-7005-4962-B2B5-9AEC483189CE}.Release|x64.Build.0 = Release|x64
+		{355B2595-1CA6-4852-83E4-7DBA0A261433}.Debug|x64.ActiveCfg = Debug|x64
+		{355B2595-1CA6-4852-83E4-7DBA0A261433}.Debug|x64.Build.0 = Debug|x64
+		{355B2595-1CA6-4852-83E4-7DBA0A261433}.Release|x64.ActiveCfg = Release|x64
+		{355B2595-1CA6-4852-83E4-7DBA0A261433}.Release|x64.Build.0 = Release|x64
+		{CF48CB72-4DB9-4EB8-9B8B-8108E3E25CB9}.Debug|x64.ActiveCfg = Debug|x64
+		{CF48CB72-4DB9-4EB8-9B8B-8108E3E25CB9}.Debug|x64.Build.0 = Debug|x64
+		{CF48CB72-4DB9-4EB8-9B8B-8108E3E25CB9}.Release|x64.ActiveCfg = Release|x64
+		{CF48CB72-4DB9-4EB8-9B8B-8108E3E25CB9}.Release|x64.Build.0 = Release|x64
+		{8D23602F-2DBA-4002-BBEA-D0B011E2E296}.Debug|x64.ActiveCfg = Debug|x64
+		{8D23602F-2DBA-4002-BBEA-D0B011E2E296}.Debug|x64.Build.0 = Debug|x64
+		{8D23602F-2DBA-4002-BBEA-D0B011E2E296}.Release|x64.ActiveCfg = Release|x64
+		{8D23602F-2DBA-4002-BBEA-D0B011E2E296}.Release|x64.Build.0 = Release|x64
+		{5192FE57-E190-4D59-B381-93B5D2FF9E1D}.Debug|x64.ActiveCfg = Debug|x64
+		{5192FE57-E190-4D59-B381-93B5D2FF9E1D}.Debug|x64.Build.0 = Debug|x64
+		{5192FE57-E190-4D59-B381-93B5D2FF9E1D}.Release|x64.ActiveCfg = Release|x64
+		{5192FE57-E190-4D59-B381-93B5D2FF9E1D}.Release|x64.Build.0 = Release|x64
+		{23447E4C-AB93-414E-ADDC-98014BA623B3}.Debug|x64.ActiveCfg = Debug|x64
+		{23447E4C-AB93-414E-ADDC-98014BA623B3}.Debug|x64.Build.0 = Debug|x64
+		{23447E4C-AB93-414E-ADDC-98014BA623B3}.Release|x64.ActiveCfg = Release|x64
+		{23447E4C-AB93-414E-ADDC-98014BA623B3}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
