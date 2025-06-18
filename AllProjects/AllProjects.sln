@@ -65,13 +65,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Core", "..\..\Korn.Cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Auxiliary.BinariesUploader", "..\..\Korn.Auxiliary.BinariesUploader\Korn.Auxiliary.BinariesUploader\Korn.Auxiliary.BinariesUploader.csproj", "{0DF66863-33B6-4261-BBA6-A0190FE8C85A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.CLR", "..\..\z Korn.CLR\Korn.CLR\Korn.CLR.csproj", "{79394F0B-2B86-4EF5-AFB1-022B417042D8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.CoreCLR", "..\..\z Korn.CoreCLR\Korn.CoreCLR\Korn.CoreCLR.csproj", "{1412C2FF-6B64-4E6A-8F84-4D978737A198}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Modules.WinApi", "..\..\Korn.Modules.WinApi\Korn.Modules.WinApi\Korn.Modules.WinApi.csproj", "{A90398D9-7005-4962-B2B5-9AEC483189CE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.ClrJit", "..\..\Korn.ClrJit\Korn.ClrJit\Korn.ClrJit.csproj", "{355B2595-1CA6-4852-83E4-7DBA0A261433}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Korn.Utils.Process", "..\..\Korn.Utils.Process\Korn.Utils.Process\Korn.Utils.Process.csproj", "{CF48CB72-4DB9-4EB8-9B8B-8108E3E25CB9}"
 EndProject
@@ -211,22 +205,10 @@ Global
 		{0DF66863-33B6-4261-BBA6-A0190FE8C85A}.Debug|x64.Build.0 = Debug|x64
 		{0DF66863-33B6-4261-BBA6-A0190FE8C85A}.Release|x64.ActiveCfg = Release|x64
 		{0DF66863-33B6-4261-BBA6-A0190FE8C85A}.Release|x64.Build.0 = Release|x64
-		{79394F0B-2B86-4EF5-AFB1-022B417042D8}.Debug|x64.ActiveCfg = Debug|x64
-		{79394F0B-2B86-4EF5-AFB1-022B417042D8}.Debug|x64.Build.0 = Debug|x64
-		{79394F0B-2B86-4EF5-AFB1-022B417042D8}.Release|x64.ActiveCfg = Release|x64
-		{79394F0B-2B86-4EF5-AFB1-022B417042D8}.Release|x64.Build.0 = Release|x64
-		{1412C2FF-6B64-4E6A-8F84-4D978737A198}.Debug|x64.ActiveCfg = Debug|x64
-		{1412C2FF-6B64-4E6A-8F84-4D978737A198}.Debug|x64.Build.0 = Debug|x64
-		{1412C2FF-6B64-4E6A-8F84-4D978737A198}.Release|x64.ActiveCfg = Release|x64
-		{1412C2FF-6B64-4E6A-8F84-4D978737A198}.Release|x64.Build.0 = Release|x64
 		{A90398D9-7005-4962-B2B5-9AEC483189CE}.Debug|x64.ActiveCfg = Debug|x64
 		{A90398D9-7005-4962-B2B5-9AEC483189CE}.Debug|x64.Build.0 = Debug|x64
 		{A90398D9-7005-4962-B2B5-9AEC483189CE}.Release|x64.ActiveCfg = Release|x64
 		{A90398D9-7005-4962-B2B5-9AEC483189CE}.Release|x64.Build.0 = Release|x64
-		{355B2595-1CA6-4852-83E4-7DBA0A261433}.Debug|x64.ActiveCfg = Debug|x64
-		{355B2595-1CA6-4852-83E4-7DBA0A261433}.Debug|x64.Build.0 = Debug|x64
-		{355B2595-1CA6-4852-83E4-7DBA0A261433}.Release|x64.ActiveCfg = Release|x64
-		{355B2595-1CA6-4852-83E4-7DBA0A261433}.Release|x64.Build.0 = Release|x64
 		{CF48CB72-4DB9-4EB8-9B8B-8108E3E25CB9}.Debug|x64.ActiveCfg = Debug|x64
 		{CF48CB72-4DB9-4EB8-9B8B-8108E3E25CB9}.Debug|x64.Build.0 = Debug|x64
 		{CF48CB72-4DB9-4EB8-9B8B-8108E3E25CB9}.Release|x64.ActiveCfg = Release|x64
